@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "hono": "^4.6.20",
+    "jose": "^5.9.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250129.0"
+  }
+}

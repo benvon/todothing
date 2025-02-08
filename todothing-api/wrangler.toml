@@ -1,0 +1,14 @@
+name = "todothing-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+JWT_SECRET = "dev-secret-key"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "todothing-db-dev"
+database_id = "YOUR_DEV_DB_ID"  # Get this from the create command output
+
+[env.development]
+vars = { JWT_SECRET = "dev-secret-key" } 
